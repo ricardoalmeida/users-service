@@ -58,7 +58,7 @@
   resolved "https://registry.yarnpkg.com/@prisma/bar/-/bar-0.0.0.tgz#9daff159a1a09abf7665a8b6e40ddc1fdc1ed4f7"
   integrity sha512-3nez9n/vMyAr4+nmqj6Xh3cGZbreYHr3RWX0vgtrFRpiN6otuCzL+9HW8MW/DfZNuFz5YyIdfwnRSPueUZPoWQ==
 
-"@prisma/cli@^2.10.1":
+"@prisma/cli@2.10.1":
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.10.1.tgz#e99ebff7290e27c13062543f464f169448e5587c"
   integrity sha512-I+51GBJyuGS5xsCl8pf4XfTt9HIdhCJQoaGCA9KLDzVRbFHElMQ++hhyhLohJ4buFZlSagIq8NI8yIC5yu+Wkg==
@@ -280,7 +280,7 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@^14.14.6":
+"@types/node@*", "@types/node@14.14.6":
   version "14.14.6"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.6.tgz#146d3da57b3c636cc0d1769396ce1cfa8991147f"
   integrity sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
@@ -798,7 +798,7 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-env-cmd@^10.1.0:
+env-cmd@10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/env-cmd/-/env-cmd-10.1.0.tgz#c7f5d3b550c9519f137fdac4dd8fb6866a8c8c4b"
   integrity sha512-mMdWTT9XKN7yNth/6N6g2GuKuJTsKMDHlQFUDacb/heQRRWOTIZ42t1rMHnQu4jYxU1ajdTeJM+9eEETlqToMA==
@@ -1865,7 +1865,7 @@ ts-invariant@^0.4.0:
   dependencies:
     tslib "^1.9.3"
 
-ts-node-dev@^1.0.0:
+ts-node-dev@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.0.0.tgz#24a2270d225c29ce269de2a31f88b1b259fc84cb"
   integrity sha512-leA/3TgGtnVU77fGngBwVZztqyDRXirytR7dMtMWZS5b2hGpLl+VDnB0F/gf3A+HEPSzS/KwxgXFP7/LtgX4MQ==
@@ -1882,7 +1882,7 @@ ts-node-dev@^1.0.0:
     ts-node "^9.0.0"
     tsconfig "^7.0.0"
 
-ts-node@^9.0.0:
+ts-node@9.0.0, ts-node@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.0.0.tgz#e7699d2a110cc8c0d3b831715e417688683460b3"
   integrity sha512-/TqB4SnererCDR/vb4S/QvSZvzQMJN8daAslg7MeaiHvD8rDZsSfXmNeNumyZZzMned72Xoq/isQljYSt8Ynfg==
@@ -1916,7 +1916,7 @@ type-is@^1.6.16, type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^4.0.5:
+typescript@4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
   integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
