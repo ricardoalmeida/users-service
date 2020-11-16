@@ -74,7 +74,9 @@ input StringFilter {
 }
 
 type User {
-  id: Int!
+  displayName: String!
+  email: String!
+  id: ID
 }
 
 input UserCreateInput {

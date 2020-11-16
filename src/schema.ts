@@ -2,11 +2,14 @@ import { makeSchema, mutationType, objectType, queryType } from "@nexus/schema";
 import { transformSchemaFederation } from "graphql-transform-federation";
 import { nexusPrisma } from "nexus-plugin-prisma";
 import path from "path";
+import { prisma } from "./context";
 
 const User = objectType({
   name: "User",
   definition(t) {
-    t.model.id();
+    t.id("id");
+    t.model.email();
+    t.model.displayName();
   },
 });
 
@@ -53,6 +56,14 @@ const schema = makeSchema({
 const federatedSchema = transformSchemaFederation(schema, {
   Query: {
     extend: true,
+  },
+  User: {
+    keyFields: ["id"],
+    async resolveReference(reference: any) {
+      return await prisma.user.findOne({
+        where: { id: reference.id },
+      });
+    },
   },
 });
 
