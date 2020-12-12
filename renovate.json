@@ -1,7 +1,13 @@
 {
-  "extends": ["config:base", ":assignee(ricardoalmeida)"],
+  "extends": ["config:base", ":assignee(ricardoalmeida)", ":reviewer(ricardoalmeida)"],
   "patch": {
     "automerge": true
-  }
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "rangeStrategy": "pin"
+    }
+  ]
 }
 
