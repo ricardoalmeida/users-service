@@ -1,5 +1,7 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base", ":assignee(ricardoalmeida)"],
+  "patch": {
+    "automerge": true
+  }
 }
+
