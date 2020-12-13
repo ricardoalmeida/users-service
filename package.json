@@ -11,7 +11,7 @@
     "generate": "ts-node --transpile-only -P tsconfig.json ./src/schema.ts"
   },
   "dependencies": {
-    "@apollo/federation": "0.20.4",
+    "@apollo/federation": "0.20.7",
     "@nexus/schema": "0.19.1",
     "@prisma/client": "2.13.0",
     "apollo-server-express": "2.19.0",
