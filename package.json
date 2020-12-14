@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@apollo/federation": "0.20.7",
-    "@nexus/schema": "0.19.2",
+    "@nexus/schema": "0.20.1",
     "@prisma/client": "2.13.0",
     "apollo-server-express": "2.19.0",
     "graphql": "15.4.0",
