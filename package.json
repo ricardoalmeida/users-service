@@ -13,14 +13,14 @@
   "dependencies": {
     "@apollo/federation": "0.20.7",
     "@nexus/schema": "0.19.2",
-    "@prisma/client": "2.13.0",
+    "@prisma/client": "2.13.1",
     "apollo-server-express": "2.19.0",
     "graphql": "15.4.0",
     "graphql-transform-federation": "2.1.0",
     "nexus-plugin-prisma": "0.26.0"
   },
   "devDependencies": {
-    "@prisma/cli": "2.13.0",
+    "@prisma/cli": "2.13.1",
     "@types/node": "14.14.13",
     "env-cmd": "10.1.0",
     "ts-node": "9.1.1",
