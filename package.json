@@ -11,10 +11,10 @@
     "generate": "ts-node --transpile-only -P tsconfig.json ./src/schema.ts"
   },
   "dependencies": {
-    "@apollo/federation": "0.20.7",
+    "@apollo/federation": "0.21.0",
     "@nexus/schema": "0.19.2",
     "@prisma/client": "2.13.0",
-    "apollo-server-express": "2.19.0",
+    "apollo-server-express": "2.21.0",
     "graphql": "15.4.0",
     "graphql-transform-federation": "2.1.0",
     "nexus-plugin-prisma": "0.26.0"
